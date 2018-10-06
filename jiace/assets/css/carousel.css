@@ -1,0 +1,91 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 80px;
+    color: #5a5a5a;
+}
+
+h1 {
+    color: #000;
+}
+
+/** by frankqian **/
+.navbar {
+    background: #fff;
+    padding-top: 20px;
+}
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(7, 108, 224);
+}
+
+.collapse {
+    display: block;
+}
+
+.navbar-nav a{
+    color:rgb(37, 37, 37);
+}
+
+.navbar-nav li.active a.nav-link {
+    background: #076ce0;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.marketing .mb-lg {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.img-rounded {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.production-series .btn-default {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.production-series .btn-default:hover {
+    background-color: #076ce0;
+    color: white;
+}
+
+address {
+    margin-top: 40px;
+}
+address span {
+    width: 40px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: #2a2730;
+    height: 120px;
+    padding: 30px 0;
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    body {
+        padding-top: 209px;
+    }
+}
